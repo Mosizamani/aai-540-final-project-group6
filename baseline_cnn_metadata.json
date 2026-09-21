@@ -1,0 +1,23 @@
+{
+    "model_name": "baseline_cnn_rf_intrusion",
+    "model_type": "Convolutional Neural Network",
+    "input_height": 128,
+    "input_width": 128,
+    "input_channels": 3,
+    "classes": [
+        "Benign",
+        "Broadband_Jam",
+        "Human",
+        "Machine",
+        "Narrowband_Jam",
+        "Wildlife"
+    ],
+    "num_classes": 6,
+    "test_accuracy": 0.8361111283302307,
+    "test_loss": 0.34248679876327515,
+    "macro_f1": 0.829,
+    "training_epochs": 15,
+    "model_version": "v1",
+    "created_utc": "2026-09-21T01:44:16.339885+00:00",
+    "model_s3_uri": "s3://aai540-group6-rf-intrusion-2026-003274228913-us-east-1-an/models/baseline/v1/baseline_cnn_rf_intrusion.keras"
+}
