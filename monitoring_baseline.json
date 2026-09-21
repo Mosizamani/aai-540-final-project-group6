@@ -1,0 +1,18 @@
+{
+    "model_version": "v1",
+    "test_accuracy": 0.8361111283302307,
+    "test_loss": 0.34248679876327515,
+    "macro_f1": 0.829,
+    "mean_prediction_confidence": 0.8241221904754639,
+    "median_prediction_confidence": 0.8929953575134277,
+    "low_confidence_threshold": 0.6,
+    "low_confidence_rate": 0.13666666666666666,
+    "predicted_class_distribution": {
+        "Benign": 809,
+        "Broadband_Jam": 600,
+        "Human": 567,
+        "Machine": 392,
+        "Narrowband_Jam": 601,
+        "Wildlife": 631
+    }
+}
