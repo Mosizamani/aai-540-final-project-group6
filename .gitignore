@@ -16,5 +16,9 @@ __pycache__/
 # OS files
 .DS_Store
 
-# Local monitoring report exports
-monitoring_reports/
+# Local tooling / caches
+.pydeps/
+.mplconfig/
+.ipython/
+.jupyter-local/
+monitoring_reports_s3_mirror/

@@ -1,0 +1,31 @@
+{
+  "project": "Group 6 RF Intrusion Detection",
+  "generated_at_utc": "2026-10-04T05:06:24.933825+00:00",
+  "report_timestamp": "2026-10-04-05-06-24",
+  "model_quality": {
+    "overall_status": "PASS",
+    "violation_count": 0,
+    "reports": {
+      "statistics": "monitoring_reports/2026-10-04-05-06-24/model_quality/statistics.json",
+      "constraints": "monitoring_reports/2026-10-04-05-06-24/model_quality/constraints.json",
+      "constraint_violations": "monitoring_reports/2026-10-04-05-06-24/model_quality/constraint_violations.json",
+      "summary_csv": "monitoring_reports/2026-10-04-05-06-24/model_quality/model_quality_summary.csv"
+    }
+  },
+  "data_quality": {
+    "overall_status": "PASS",
+    "violation_count": 0,
+    "reports": {
+      "statistics": "monitoring_reports/2026-10-04-05-06-24/data_quality/statistics.json",
+      "constraints": "monitoring_reports/2026-10-04-05-06-24/data_quality/constraints.json",
+      "constraint_violations": "monitoring_reports/2026-10-04-05-06-24/data_quality/constraint_violations.json",
+      "summary_csv": "monitoring_reports/2026-10-04-05-06-24/data_quality/data_quality_summary.csv"
+    }
+  },
+  "cloudwatch": {
+    "metric_namespace": "RFIntrusion/MLMonitoring",
+    "dashboard_name": "RF-Intrusion-ML-Monitoring",
+    "dashboard_url": "https://us-east-1.console.aws.amazon.com/cloudwatch/home?region=us-east-1#dashboards/dashboard/RF-Intrusion-ML-Monitoring"
+  },
+  "s3_report_path": "s3://sagemaker-us-east-1-local-dry-run/rf-intrusion-datalake/monitoring/reports/2026-10-04-05-06-24"
+}

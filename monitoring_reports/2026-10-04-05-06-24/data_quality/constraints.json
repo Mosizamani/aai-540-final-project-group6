@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "dataset_type": "data_quality",
+  "generated_at_utc": "2026-10-04T05:06:24.930874+00:00",
+  "constraints": {
+    "required_columns_present": true,
+    "no_missing_filenames": true,
+    "no_missing_class_labels": true,
+    "no_duplicate_filenames": true,
+    "expected_classes_present": true,
+    "class_distribution_drift_threshold": 0.05,
+    "image_drift_percent_threshold": 10.0,
+    "expected_image_width": 224,
+    "expected_image_height": 224
+  }
+}

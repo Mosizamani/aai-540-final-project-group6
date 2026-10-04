@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "dataset_type": "model_quality",
+  "problem_type": "MulticlassClassification",
+  "model_version": "v1",
+  "generated_at_utc": "2026-10-04T05:06:24.920535+00:00",
+  "multiclass_classification_metrics": {
+    "accuracy": {
+      "value": 0.8361111283302307,
+      "standard_deviation": null
+    },
+    "macro_f1": {
+      "value": 0.829,
+      "standard_deviation": null
+    },
+    "mean_prediction_confidence": {
+      "value": 0.8241221904754639,
+      "standard_deviation": null
+    },
+    "low_confidence_rate": {
+      "value": 0.13666666666666666,
+      "standard_deviation": null
+    }
+  },
+  "predicted_class_distribution": {
+    "Benign": 809,
+    "Broadband_Jam": 600,
+    "Human": 567,
+    "Machine": 392,
+    "Narrowband_Jam": 601,
+    "Wildlife": 631
+  }
+}

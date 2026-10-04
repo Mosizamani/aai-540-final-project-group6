@@ -1,0 +1,74 @@
+{
+  "version": "1.0",
+  "dataset_type": "data_quality",
+  "generated_at_utc": "2026-10-04T05:06:24.928792+00:00",
+  "dataset_summary": {
+    "overall_data_monitor_status": "PASS",
+    "class_distribution_status": "PASS",
+    "image_drift_status": "PASS"
+  },
+  "class_distribution_comparison": [
+    {
+      "class_label": "Benign",
+      "Reference Proportion": 0.16666666666666666,
+      "Production Proportion": 0.16666666666666666,
+      "Absolute Change": 0.0,
+      "Status": "PASS"
+    },
+    {
+      "class_label": "Broadband_Jam",
+      "Reference Proportion": 0.16666666666666666,
+      "Production Proportion": 0.16666666666666666,
+      "Absolute Change": 0.0,
+      "Status": "PASS"
+    },
+    {
+      "class_label": "Human",
+      "Reference Proportion": 0.16666666666666666,
+      "Production Proportion": 0.16666666666666666,
+      "Absolute Change": 0.0,
+      "Status": "PASS"
+    },
+    {
+      "class_label": "Machine",
+      "Reference Proportion": 0.16666666666666666,
+      "Production Proportion": 0.16666666666666666,
+      "Absolute Change": 0.0,
+      "Status": "PASS"
+    },
+    {
+      "class_label": "Narrowband_Jam",
+      "Reference Proportion": 0.16666666666666666,
+      "Production Proportion": 0.16666666666666666,
+      "Absolute Change": 0.0,
+      "Status": "PASS"
+    },
+    {
+      "class_label": "Wildlife",
+      "Reference Proportion": 0.16666666666666666,
+      "Production Proportion": 0.16666666666666666,
+      "Absolute Change": 0.0,
+      "Status": "PASS"
+    }
+  ],
+  "image_drift_comparison": [
+    {
+      "Metric": "Mean Pixel Intensity",
+      "Observed Change": "0.13%",
+      "Threshold": "<= 10%",
+      "Status": "PASS"
+    },
+    {
+      "Metric": "Pixel Intensity Std Dev",
+      "Observed Change": "1.27%",
+      "Threshold": "<= 10%",
+      "Status": "PASS"
+    },
+    {
+      "Metric": "Image Dimensions",
+      "Observed Change": "224 x 224",
+      "Threshold": "224 x 224",
+      "Status": "PASS"
+    }
+  ]
+}
