@@ -1,7 +1,12 @@
 # Dataset
 data/
 
-# Model artifacts
+# Per-user AWS project configuration. Copy the tracked example and fill in your own values.
+.config/project.json
+
+# Generated local TensorFlow model artifacts
+# Notebook 04 writes its Keras models, metrics, plots, and deployment packages here.
+models/tensorflow_training/
 *.keras
 *.h5
 *.tar.gz
