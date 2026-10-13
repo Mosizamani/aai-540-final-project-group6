@@ -33,6 +33,7 @@ models/
 .config/*.swp
 
 # Generated local TensorFlow model artifacts
+artifacts/tensorflow_training/
 models/tensorflow_training/
 *.keras
 *.h5
