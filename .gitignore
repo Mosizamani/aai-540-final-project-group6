@@ -1,5 +1,6 @@
 # Dataset
 data/
+models/
 
 # Per-user AWS project configuration. Copy the tracked example and fill in your own values.
 .config/project.json
