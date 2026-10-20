@@ -1,7 +1,40 @@
 # Dataset
 data/
+models/
 
-# Model artifacts
+# Per-user AWS project configuration. Copy the tracked example and fill in your own values.
+.config/project.json
+
+# Generated local TensorFlow model artifacts
+# Notebook 04 writes its Keras models, metrics, plots, and deployment packages here.
+models/tensorflow_training/
+*.keras
+*.h5
+*.tar.gz
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+
+# Local monitoring report exports
+monitoring_reports/
+# Dataset
+data/
+models/
+
+# Per-user AWS project configuration. Copy the tracked example and fill in your own values.
+.config/project.json
+.config/*.swp
+
+# Generated local TensorFlow model artifacts
+artifacts/tensorflow_training/
+models/tensorflow_training/
 *.keras
 *.h5
 *.tar.gz
